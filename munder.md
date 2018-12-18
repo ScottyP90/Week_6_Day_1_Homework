@@ -130,7 +130,7 @@ changeMurderer();
 const verdict = declareMurderer();
 console.log(verdict);
 ```
-#The verdict should be 'The murderer is Mr. Green'. Both the are called but the last one that was called was changeMurderer it changed to Mr. Green rather then Mrs White.
+#The verdict should be 'The murderer is Mrs. White'. When changeMurderer is called it changes to Mr. Green and then Mrs. White since plotTwist is called in the function.
 
 #### Episode 7
 
